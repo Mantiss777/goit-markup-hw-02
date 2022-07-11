@@ -1,0 +1,56 @@
+/*  Глобальні параметри */
+:root {
+	--primary-text-color:#757575;
+	--title-text-color: #212121;
+	--accent-text-color:#2196F3;
+	--primary-bg-color:#E5E5E5;
+	--accent-bg-color:#2F303A;
+}
+
+body {
+	color: var(--primary-text-color);
+	background-color: var(--primary-bg-color);
+}
+/* header    ? чомусь точки не зникли???? Запитати ментора або самому розыбратись... */
+.header {
+	list-style: none;
+}
+
+/* logo */
+.logo {
+	color: #000000;
+}
+
+.logo-accent {
+	color: var(--accent-text-color);
+}
+
+/* Links to other pages or sections of the current page */
+
+.site-nav .link {
+	color: var(--title-text-color);
+	list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-text-color);
+}
+
+
+
+/* main titles основні заголовки  */
+.section .section-title {
+	color: var(--title-text-color);
+
+}
+/* secondary titles заголовки другорядні */
+.feature-list .title {
+	color: var(--title-text-color);
+	
+}
+/* забрав крапочки з списків */
+.feature-list {
+	list-style: none;
+
+}
