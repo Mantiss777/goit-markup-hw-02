@@ -3,9 +3,13 @@
 	--primary-text-color:#757575;
 	--title-text-color: #212121;
 	--accent-text-color:#2196F3;
-	--primary-bg-color:#E5E5E5;
+	--contact-link-color: rgba(255, 255, 255, 0.6);
+	--wite-color: #FFFFFF;
+	--black-color:#000000;
+	--primary-bg-color:#FFFFFF;
+	--secondery-bg-color:#F5F4F4;
 	--accent-bg-color:#2F303A;
-}
+	}
 
 body {
 	color: var(--primary-text-color);
@@ -13,23 +17,32 @@ body {
 }
 /* header    ? чомусь точки не зникли???? Запитати ментора або самому розыбратись... */
 .header {
-	list-style: none;
+	background-color: var(--wite-color);
 }
 
 /* logo */
 .logo {
-	color: #000000;
+	color: var(--black-color);
 }
 
 .logo-accent {
 	color: var(--accent-text-color);
 }
 
+.logo-footer{
+  color: var(--wite-color);
+}
+
 /* Links to other pages or sections of the current page */
+
+.site-nav{
+	list-style: none;
+}
+
 
 .site-nav .link {
 	color: var(--title-text-color);
-	list-style: none;
+	
 }
 
 .site-nav .link:hover,
@@ -37,9 +50,49 @@ body {
 	color: var(--accent-text-color);
 }
 
+/* Links to email and phone */
+
+.email-phone {
+	list-style: none;
+
+}
+
+.email-phone .email-style,
+.email-phone .phone-style{
+	color: var(--primary-text-color);
+}
+
+.email-phone .email-style:hover,
+.email-phone .email-style:focus,
+.email-phone .phone-style:hover,
+.email-phone .phone-style:focus{
+	color: var(--accent-text-color);
+}
+
+
+
+/* HERO */
+.hero-style{
+	background-color: var(--accent-bg-color);
+}
+
+.hero-title{
+	color: var(--wite-color);
+
+}
+
+.button {
+	color: var(--wite-color);
+	background-color: var(--accent-text-color);
+	border: 1px solid var(--accent-text-color);
+	}
+
 
 
 /* main titles основні заголовки  */
+.main{
+	background-color: var(--primary-bg-color);
+}
 .section .section-title {
 	color: var(--title-text-color);
 
@@ -53,4 +106,36 @@ body {
 .feature-list {
 	list-style: none;
 
+}
+/* Our team - Наша команда */
+.our-team {
+	background-color: var(--secondery-bg-color);
+}
+
+/* Footer */
+
+.footer-style{
+	background-color: var(--accent-bg-color);
+}
+.address-style{
+	color: var(--wite-color);
+}
+
+.contact-link {
+	color: var(--contact-link-color);
+	
+}
+
+/* Portfolio */
+
+.filter{
+	color: var(--title-text-color);
+
+}
+
+.filter:hover,
+.filter:focus{
+	color: var(--wite-color);
+	background-color: var(--accent-text-color);
+	border: 1px solid var(--accent-text-color);
 }
