@@ -11,18 +11,29 @@
 	--accent-bg-color:#2F303A;
 	}
 
+
+
 body {
 	color: var(--primary-text-color);
 	background-color: var(--primary-bg-color);
+	font-family: 'Roboto', sans-serif;
+	
+	letter-spacing: 0.03em;
 }
 /* header    ? чомусь точки не зникли???? Запитати ментора або самому розыбратись... */
 .header {
 	background-color: var(--wite-color);
+	
 }
 
 /* logo */
 .logo {
 	color: var(--black-color);
+	font-family: 'Raleway', cursive; 
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	text-decoration: inherit;
 }
 
 .logo-accent {
@@ -37,12 +48,23 @@ body {
 
 .site-nav{
 	list-style: none;
+	
 }
 
 
 .site-nav .link {
 	color: var(--title-text-color);
-	
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: inherit;
+
+
+
+
+
 }
 
 .site-nav .link:hover,
@@ -54,12 +76,18 @@ body {
 
 .email-phone {
 	list-style: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	
 
 }
 
 .email-phone .email-style,
 .email-phone .phone-style{
 	color: var(--primary-text-color);
+	text-decoration: inherit;
 }
 
 .email-phone .email-style:hover,
@@ -74,17 +102,34 @@ body {
 /* HERO */
 .hero-style{
 	background-color: var(--accent-bg-color);
+
 }
 
 .hero-title{
 	color: var(--wite-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center; 
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
 
 }
 
 .button {
+	padding: 10px 32px;
+	border-radius: 4px;
+	
 	color: var(--wite-color);
 	background-color: var(--accent-text-color);
 	border: 1px solid var(--accent-text-color);
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+
+
 	}
 
 
@@ -95,13 +140,32 @@ body {
 }
 .section .section-title {
 	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	
+
+
 
 }
 /* secondary titles заголовки другорядні */
 .feature-list .title {
 	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	
+	text-transform: uppercase;
 	
 }
+.feauture-list .text{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+
+}
+
 /* забрав крапочки з списків */
 .feature-list {
 	list-style: none;
