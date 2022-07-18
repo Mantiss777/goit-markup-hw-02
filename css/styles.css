@@ -15,7 +15,6 @@ body {
 	color: var(--primary-text-color);
 	background-color: var(--primary-bg-color);
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -67,7 +66,6 @@ body {
 .site-nav .link {
 	color: var(--title-text-color);
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	text-decoration: inherit;
@@ -78,10 +76,16 @@ body {
 	color: var(--accent-text-color);
 }
 
+.site-nav .link-visit:visited{
+	color: var(--accent-text-color);
+
+}
+
+
+
 /* Links to email and phone */
 .email-phone {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
@@ -100,7 +104,7 @@ body {
 }
 
 /* HERO */
-.hero-style{
+.hero{
 	background-color: var(--accent-bg-color);
 }
 
@@ -134,10 +138,9 @@ body {
 .main{
 	background-color: var(--primary-bg-color);
 }
-
-.section .section-title {
+/*.section*/
+.section-title {
 	color: var(--title-text-color);
-	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
@@ -146,8 +149,6 @@ body {
 /* secondary titles заголовки другорядні */
 .feature-list .title {
 	color: var(--title-text-color);
-	font-weight: 700;
-	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 	}
@@ -166,7 +167,6 @@ body {
 }
 
 .team-list .profession{
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
 	text-align: center;
@@ -179,13 +179,13 @@ body {
 
 .address-style{
 	color: var(--wite-color);
+	font-style: normal;
 }
 
 .footer-style .email-style,
 .footer-style .phone-style{
 	color: var(--contact-link-color);
 	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.71;
 }
 
@@ -195,32 +195,38 @@ body {
 	border-radius: 4px;
 
 	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height:1.62;
 	border: 0;
 	color: var(--title-text-color);
-	background-color: var(--primary-bg-color)
-
+	background-color: var(--secondery-bg-color)
 
 	}
+
 
 .filter:hover,
 .filter:focus{
 	color: var(--wite-color);
 	background-color: var(--accent-text-color);
-	border: 1px solid var(--accent-text-color);
 	cursor: pointer;
 }
 
+.active-button{
+	color: var(--wite-color);
+	background-color: var(--accent-text-color);
+
+	
+}
+
 .example-work-list .title{
-	color: var(--title-text-color);
-	font-weight: 700;
+	color: var(--title-text-color); 
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
 .example-work-list .type {
-	color: var(--primary-text-color);
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 }
